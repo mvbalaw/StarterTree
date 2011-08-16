@@ -1,0 +1,26 @@
+require 'albacore'
+
+task :default => [:test]
+
+
+assemblyinfo :assemblyinfo do |asm|
+  asm.version = "0.0.1"
+  asm.file_version = "0.0.1"
+  asm.company_name = "MVBA, P.C."
+  asm.copyright = "MVBA, P.C. (c) 2011"
+  asm.output_file = "src/CommonAssemblyInfo.cs"
+end
+
+desc "Build"
+msbuild :build => :assemblyinfo do |msb|
+  msb.properties :configuration => :Debug
+  msb.targets :Clean, :Build
+  msb.solution = "src/StarterTree.sln"
+end
+
+desc "Test"
+nunit :test => :build do |nunit|
+  nunit.command = "tools/NUnit/bin/nunit-console.exe"
+  #  nunit.options '/framework v4.0.30319'
+  nunit.assemblies "src/StarterTree.Tests/bin/Debug/StarterTree.Tests.dll"
+end

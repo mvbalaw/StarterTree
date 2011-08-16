@@ -1,0 +1,7 @@
+using System.Reflection;
+using System.Runtime.InteropServices;
+[assembly: AssemblyCompany("MVBA, P.C.")]
+[assembly: AssemblyCopyright("MVBA, P.C. (c) 2011")]
+[assembly: AssemblyVersion("0.0.1")]
+[assembly: AssemblyFileVersion("0.0.1")]
+
