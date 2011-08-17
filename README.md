@@ -10,6 +10,7 @@ It has the following features:
 * Default project structure (src, lib, tools folders)
 * Simple rake script using albacore with tasks to create CommonAssemblyInfo.cs, build the Visual Studio 10 based solution, and run the NUnit test runner.
 * The sample application, StarterTree, configure StructureMap, our Inversion of Control container to provide a HelloWorld class as a Singleton. It contains a test fixture, HelloWorld, that exercises the StarterTree.Core class library.
+* Includes provenance.txt files in the lib and tools folders to show the source of the dependencies. See lib/Provenance.txt.template for an example.
 
 
 ## HOW TO BUILD
