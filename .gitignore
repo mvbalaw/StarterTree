@@ -13,3 +13,4 @@ VERSION
 *.nupkg
 TestResult.xml
 CommonAssemblyInfo.cs
+dist/
