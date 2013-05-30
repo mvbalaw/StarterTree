@@ -2,6 +2,7 @@
 [Dd]ebug/
 [Rr]elease/
 build/
+dist/
 [Bb]in/
 [Oo]bj/
 [Hh]elp/
@@ -14,3 +15,5 @@ VERSION
 TestResult.xml
 CommonAssemblyInfo.cs
 dist/
+!tools/NUnit/bin
+dist.bat
