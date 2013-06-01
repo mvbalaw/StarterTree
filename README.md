@@ -1,7 +1,6 @@
 StarterTree ReadMe
 ===
-
-## DESCRIPTION
+### Description
 
 StarterTree is a simple Hello, World! application used as a starting place for creating new projects. 
 
@@ -12,8 +11,7 @@ It has the following features:
 * The sample application, StarterTree, configure StructureMap, our Inversion of Control container to provide a HelloWorld class as a Singleton. It contains a test fixture, HelloWorld, that exercises the StarterTree.Core class library.
 * Includes provenance.txt files in the lib and tools folders to show the source of the dependencies. See lib/Provenance.txt.template for an example.
 
-
-## HOW TO BUILD
+### How To Build:
 
 The build script requires Ruby with rake installed.
 
@@ -22,15 +20,14 @@ The build script requires Ruby with rake installed.
 
 If you do not have ruby:
 
-1. You need to create a src\CommonAssemblyInfo.cs file. Go.bat will copy src\ 
-  * go.bat will copy src\CommonAssemblyInfo.cs.default to src\CommonAssemblyInfo.cs
-1. open src\FubuMVC.sln with Visual Studio and Build the solution
+1. You need to create a src\CommonAssemblyInfo.cs file. Go.bat will copy src\CommonAssemblyInfo.cs.default to src\CommonAssemblyInfo.cs
+1. open src\StarterTree.sln with Visual Studio and build the solution
 
-## License		
+### License
 
 [MIT License][mitlicense]
 
-This project is part of [MVBA Law Commons][mvbalawcommons].
+This project is part of [MVBA's Open Source Projects][MvbaLawGithub].
 
-[mvbalawcommons]: http://code.google.com/p/mvbalaw-commons/
+[MvbaLawGithub]: http://mvbalaw.github.io/
 [mitlicense]: http://www.opensource.org/licenses/mit-license.php
