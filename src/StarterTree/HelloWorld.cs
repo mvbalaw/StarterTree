@@ -1,4 +1,4 @@
-﻿namespace StarterTree.Core
+﻿namespace StarterTree
 {
 	public class HelloWorld
 	{

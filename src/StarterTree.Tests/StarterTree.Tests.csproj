@@ -48,7 +48,7 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StarterTree.Core\StarterTree.Core.csproj">
+    <ProjectReference Include="..\StarterTree\StarterTree.csproj">
       <Project>{6F175B70-8D78-453E-B5B0-0806F3EA5C95}</Project>
       <Name>StarterTree.Core</Name>
     </ProjectReference>

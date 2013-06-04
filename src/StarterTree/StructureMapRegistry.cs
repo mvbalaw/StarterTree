@@ -1,6 +1,6 @@
 using StructureMap.Configuration.DSL;
 
-namespace StarterTree.Core
+namespace StarterTree
 {
 	public class StructureMapRegistry : Registry
 	{

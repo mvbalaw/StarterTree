@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using StarterTree.Core;
+
 using StructureMap;
 
 namespace StarterTree.Tests

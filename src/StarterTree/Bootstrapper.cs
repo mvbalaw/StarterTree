@@ -1,8 +1,10 @@
 ﻿using StructureMap;
 
-namespace StarterTree.Core
+namespace StarterTree
 {
+// ReSharper disable ClassWithVirtualMembersNeverInherited.Global
 	public class Bootstrapper : IBootstrapper
+// ReSharper restore ClassWithVirtualMembersNeverInherited.Global
 	{
 		private static bool _hasStarted;
 

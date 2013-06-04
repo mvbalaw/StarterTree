@@ -8,8 +8,8 @@
     <ProjectGuid>{6F175B70-8D78-453E-B5B0-0806F3EA5C95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>StarterTree.Core</RootNamespace>
-    <AssemblyName>StarterTree.Core</AssemblyName>
+    <RootNamespace>StarterTree</RootNamespace>
+    <AssemblyName>StarterTree</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
