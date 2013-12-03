@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterTree", "StarterTree\StarterTree.csproj", "{6F175B70-8D78-453E-B5B0-0806F3EA5C95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarterTree.Tests", "StarterTree.Tests\StarterTree.Tests.csproj", "{17D57770-7B90-4FBF-A33E-019D86EF2D11}"
